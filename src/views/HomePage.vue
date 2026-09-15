@@ -32,7 +32,6 @@
         </ion-item>
       </ion-list>
 
-      <!-- Add Task Modal -->
       <ion-modal :is-open="isOpen" @didDismiss="isOpen = false">
         <ion-header>
           <ion-toolbar>
